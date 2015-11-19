@@ -20,8 +20,6 @@ public:
     virtual ~BaseNode();
     bool init();
 //    void setTitle(const std::string &title);
-    
-    
 public:
     ui::Text* title;
     ui::Button* backBtn;
